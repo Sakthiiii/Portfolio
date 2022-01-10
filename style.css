@@ -1,5 +1,6 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap'); 
 :root{
     --bg-black-900:#f2f2fc;
     --bg-black-100:#fdf0ff;
@@ -178,12 +179,12 @@ text-transform: capitalize;
     font-size: 30px;
     letter-spacing: 5px;
     position: relative;
-    font-family: 'Open Sans';
+    font-family: 'Montserrat',sans-serif;
 }
 
 .aside .logo a span {
     font-family:"Monotype Corsiva",cursive;
-    font-size: 40px;
+    font-size: 50px;
    
 }
 
@@ -272,7 +273,7 @@ transition: all 0.3s ease;
 .aside .nav li {
     margin-bottom: 20px;
     display: block;
-    font-family: "Helvetica";
+    font-family: "Montserrat",sans-serif;
 }
 
 .aside .nav li a{
@@ -306,10 +307,13 @@ transition: all 0.3s ease;
 h3.hello{
     font-size: 28px;
     margin: 15px 0;
-    font-family: "Hattori Hanzo";
+     font-family: 'Montserrat', sans-serif; 
+    /* font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif; */
+
 }
 h3.hello span {
-    font-family: "Lucida Calligraphy";
+    font-family: 'Montserrat', sans-serif; 
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
@@ -317,15 +321,18 @@ h3.hello span {
 h3.my-profession{
     font-size: 30px;
     margin: 15px 0;
+    font-family: "Lora",sans-serif;
 }
 .typing {
     color: var(--skin-color);
+    font-family: "Montserrat",sans-serif;
 }
-.home-info p{
+.home-info i{
 margin-bottom: 70px;
 font-size: 20px;
 color: var(--text-black-700);
-font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+
+font-family: 'Lora', serif;
 }
 .home .home-info{
     flex: 0 0  60%;
@@ -382,18 +389,20 @@ position: relative;
     margin-bottom: 15px;
     font-weight: 700;
     color: var(--text-black-900);
-    font-family:'Open Sans';
+    font-family:'Montserrat';
     
 }
 .about .about-content .about-text h3 span {
     color: var(--skin-color);
+    font-family: "Montserrat";
    
 }
-.about .about-content .about-text p {
+.about .about-content .about-text i {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
+    
     color: var(--text-black-700);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode'; 
+    font-family:"Lora",sans-serif; 
 }
 
 .about .about-content .personal-info {
@@ -537,12 +546,7 @@ position: relative;
     top: 0;
     background-color: var(--skin-color); 
 } 
-.about .about-content .timeline .timeline-date{
-    font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 12px;
-    color: var(--text-black-700);
-}
+
 .about .about-content .timeline .timeline-date .fa{
     margin-right: 5px;
 }
@@ -561,6 +565,23 @@ position: relative;
     text-align: justify;
     color: var(--text-black-700);
     font-family: monospace;
+}
+
+/* .about .about-content .timeline .circle-dot {
+    position:absolute;
+    left: 0px;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+
+} */
+.about .about-content .timeline .timeline-date{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
 }
 
 .portfolio .portfolio-heading{

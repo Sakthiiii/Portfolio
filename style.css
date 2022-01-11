@@ -588,6 +588,7 @@ position: relative;
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 40px;
+    margin-top: 80px;
     font-family:monospace;
 }
 .portfolio .portfolio-heading h2 {
@@ -637,6 +638,7 @@ font-family:'Courier New';
     width: 100%;
     display: block;
     transition: all 0.3s ease;
+  
 
 }
 .portfolio .portfolio-item-inner .portfolio-img :hover {

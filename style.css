@@ -185,7 +185,7 @@ text-transform: capitalize;
 .aside .logo a span {
     font-family:"Monotype Corsiva",cursive;
     font-size: 50px;
-   
+color: var(--skin-color);   
 }
 
 .aside .logo a::before {
@@ -339,8 +339,8 @@ font-family: 'Lora', serif;
     max-width: 60% ;
 }
 .home .home-img {
-    flex: 0 0 60%;
-    max-width: 40%;
+    flex: 0 0 70%;
+    max-width: 30%;
   
 text-align: center;
 position: relative;
@@ -382,7 +382,7 @@ position: relative;
 }
 
 .about .section-title h2 {
-    font-family:'Courier New';
+    font-family:'Montserrat';
 }
 .about .about-content .about-text h3 {
     font-size: 24px;
@@ -429,13 +429,14 @@ position: relative;
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 2px solid var(--bg-black-50);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:"Montserrat";
 }
-.about .about-content .personal-info .info-items p span {
-    font-weight:400;
+.about .about-content .personal-info .info-items p i {
+    font-weight:500;
     color: var(--text-black-900);
     margin-left: 4px;
     display: inline-block;
+    font-family: "Lora";
 }
 .about .about-content .personal-info  .btn{
     margin-top: 20px;
@@ -507,7 +508,7 @@ position: relative;
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--text-black-900);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:"Montserrat";
     
 }
 .about .about-content .timeline-box {
@@ -557,14 +558,23 @@ position: relative;
     margin-bottom: 5px;
     text-transform: capitalize;
     color: var(--text-black-900);
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"Montserrat";
 }
-.about .about-content .timeline .timeline-text {
+.about .about-content .timeline .timeline-text  {
     font-size: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 2px;
     text-align: justify;
     color: var(--text-black-700);
-    font-family: monospace;
+    font-family:"Lora";
+    
+}
+.about .about-content .timeline .timeline-text i  {
+    font-size: 16px;
+    margin-bottom: 22px;
+    text-align: justify;
+    color: var(--text-black-700);
+    font-family:"Lora";
+    
 }
 
 /* .about .about-content .timeline .circle-dot {
@@ -580,8 +590,9 @@ position: relative;
 .about .about-content .timeline .timeline-date{
     font-weight: 400;
     font-size: 14px;
-    margin-bottom: 12px;
+    margin-top: 22px;
     color: var(--text-black-700);
+    font-family: "Lora";
 }
 
 .portfolio .portfolio-heading{
@@ -589,21 +600,23 @@ position: relative;
     max-width: 100%;
     margin-bottom: 40px;
     margin-top: 10px;
-    font-family:monospace;
+    font-family:"Montserrat";
 }
 .portfolio .portfolio-heading h2 {
     color: var(--text-black-900);
     font-weight: 600;
-    font-family:'Courier New';
+    font-family:'Montserrat';
     margin-top: 10px;
-   
- 
-  
+     
+}
+.portfolio .section-title {
+font-family: "Montserrat";
+
 }
 .portfolio .portfolio-heading h3 {
     color: var(--text-black-900);
     font-weight: 600;
-    font-family:'Courier New';
+    font-family:'Montserrat';
     margin-top: 20px;
     border-top:2px double var(--skin-color);
     padding-top: 30px;
@@ -612,7 +625,7 @@ position: relative;
 }
 
 .portfolio.section-title h2 {
-font-family:'Courier New';
+font-family:'Montserrat';
 }
 
 .portfolio .container {
@@ -641,12 +654,12 @@ font-family:'Courier New';
     border-radius: 10px;
     margin-left: 130px;
     margin-top: 20px;
-    transition:  0.5s;
+    transition:  0.8s;
    
     
 }
 .portfolio .portfolio-item .link :hover{
-    transform: scale(1.3);
+    transform: scale(0.5);
    
 }
 
@@ -674,26 +687,27 @@ font-family:'Courier New';
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
-   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-family:"Montserrat";
 }
 .contact .section-title h2 {
-    font-family:'Courier New';
+    font-family:'Montserrat';
 }
 
-.contact-sub-title {
+.contact-sub-title  {
     color: var(--text-black-900);
     text-align: center;
     font-size: 15px;
-    margin-bottom: 60px;
-    font-family: monospace;
+    margin-bottom:60px;
+    font-family: "Lora";
+    font-weight: 600;
 }
 
 .contact .contact-info-item {
     /* flex: 0 0 20%;
     max-width: 150%; */
     text-align: center;
-    margin-right: 180px;
-    margin-left: 160px;
+    margin-right: 80px;
+    margin-left: 240px;
     margin-bottom: 60px;
        
 }
@@ -712,6 +726,7 @@ font-family:'Courier New';
     line-height: 25px;
     color:var(--text-black-900);
     font-weight: 600;
+    font-family: "Montserrat";
 }
 .contact .contact-info-item p {
     font-size: 16px;

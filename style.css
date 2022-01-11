@@ -602,8 +602,8 @@ font-family:'Courier New';
 
 .portfolio .container {
     padding-bottom:40px ;
-    margin-left: 40px;
-    border-bottom: 1px solid var(--skin-color);
+    margin-left: 20px;
+    border-bottom: 5px solid var(--skin-color);
 }
 .portfolio .portfolio-item{
     flex: 0 0  33 .33%;
@@ -647,9 +647,9 @@ font-family:'Courier New';
 .portfolio .portfolio-item-inner  span {
     border-bottom: 1px solid var(--skin-color);
 }
-.portfolio .portfolio.section .border{
-    border: 5 px solid var(--skin-color);
-}
+/* .portfolio .portfolio.section .border{
+    
+} */
 /* .gmail{
     border-bottom: 2px solid var(--skin-color);
 } */

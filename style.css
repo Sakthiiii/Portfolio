@@ -459,6 +459,7 @@ position: relative;
    font-size: 16px;
    color: var(--text-black-900);
    text-transform: capitalize;
+   font-family: "Montserrat";
 
 }
 .about .about-content .skills .skill-item .progress {
@@ -484,8 +485,9 @@ position: relative;
     right: 0;
     color: var(--text-black-900);
     top: -40px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 40px;
+    font-family: "Lora";
 }
 /* .about .about-content .experience, */
 .about .about-content .education{
@@ -618,7 +620,7 @@ font-family: "Montserrat";
     font-weight: 600;
     font-family:'Montserrat';
     margin-top: 20px;
-    border-top:2px double var(--skin-color);
+    border-top:5px double var(--skin-color);
     padding-top: 30px;
     font-size:x-large;
   
@@ -630,7 +632,7 @@ font-family:'Montserrat';
 
 .portfolio .container {
     padding-bottom:100px ;
-    margin-left: 0px;
+    margin-left: 50px;
     /* border-bottom: 5px solid var(--skin-color); */
  
 }
@@ -642,7 +644,7 @@ font-family:'Montserrat';
 .portfolio .portfolio-item-inner{
     border: 10px solid var(--bg-black-100);
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
     cursor: pointer;
 }
 .portfolio .portfolio-item  .link {
@@ -654,12 +656,12 @@ font-family:'Montserrat';
     border-radius: 10px;
     margin-left: 130px;
     margin-top: 20px;
-    transition:  0.8s;
+    transition:  s;
    
     
 }
 .portfolio .portfolio-item .link :hover{
-    transform: scale(0.5);
+    transform: scale(2.5);
    
 }
 
@@ -667,11 +669,13 @@ font-family:'Montserrat';
     width: 100%;
     display: block;
     transition: all 0.3s ease;
+
   
 
 }
 .portfolio .portfolio-item-inner .portfolio-img :hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
+    border-radius: 5px;
 }
 
 /* .portfolio .portfolio.section .border{

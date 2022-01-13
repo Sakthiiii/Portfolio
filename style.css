@@ -339,7 +339,7 @@ font-family: 'Lora', serif;
     max-width: 60% ;
 }
 .home .home-img {
-    flex: 0 0 70%;
+    flex: 0 0 100%;
     max-width: 30%;
   
 text-align: center;
@@ -354,7 +354,7 @@ position: relative;
     border-bottom: 10px solid var(--skin-color);
     border-right:10px solid var(--skin-color) ;
     right: 20px;
-    bottom: -40px;
+    bottom: -20px;
 }
 .home .home-img::before {
     content: " ";
@@ -364,7 +364,7 @@ position: relative;
     border-top: 10px solid var(--skin-color);
     border-left:10px solid var(--skin-color) ;
     left: 20px;
-    top: -40px;
+    top: -20px;
 }
 
 

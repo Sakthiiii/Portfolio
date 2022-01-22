@@ -645,10 +645,10 @@ font-family:'Montserrat';
  
 }
 .portfolio .portfolio-item{
-    flex: 0 0 33 .33%;
+    flex: 0  43 .33%;
     max-width: 40.33%;
     margin-bottom: 90px;
-    margin-left: 150px ;
+    margin-left: 110px ;
     margin-right: 0px;
    
 }
@@ -665,7 +665,7 @@ font-family:'Montserrat';
     background: var(--skin-color);
     color:var(--text-black-900);
     border-radius: 5px;
-    margin-left: 130px;
+    margin-left: 150px;
   margin-bottom: 20px;
     transition:  s;
    

@@ -1051,7 +1051,7 @@ font-family:'Montserrat';
     .home .home-img {
        
         margin-top: 120px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
     .home .home-img::after {
         content: " ";
@@ -1060,7 +1060,7 @@ font-family:'Montserrat';
         width: 80px;
         border-bottom: 10px solid var(--skin-color);
         border-right:10px solid var(--skin-color) ;
-        right: -170px;
+        right: -175px;
         bottom: -10px;
     }
     

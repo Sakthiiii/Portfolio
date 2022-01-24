@@ -1029,7 +1029,7 @@ font-family:'Montserrat';
   
   
 }
-@media (max-width:450px){
+@media (max-width:470px){
    
     .home.content.detail.sci,
     .contact .contact-form .col-6 ,
@@ -1060,7 +1060,7 @@ font-family:'Montserrat';
         width: 80px;
         border-bottom: 10px solid var(--skin-color);
         border-right:10px solid var(--skin-color) ;
-        right: -175px;
+        right: -190px;
         bottom: -10px;
     }
     

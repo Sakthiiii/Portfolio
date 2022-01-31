@@ -786,10 +786,7 @@ font-family:'Montserrat';
 .contact .contact-form .form-item textarea.form-control {
     height: 100px;
 }
-.contact .contact-form .btn {
-    /* height: 50px;
-    padding: 0 25px; */
-}
+
 @media (max-width :1199px) {
     .aside{
         left : -270px
@@ -1285,6 +1282,12 @@ font-family:'Montserrat';
         margin-left: 50px;
        
     }
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: -40px;
+    }
+   
     .about .about-content .timeline-box {
         flex: 0 0 120%;
         max-width: 120%;
@@ -1345,7 +1348,7 @@ font-family:'Montserrat';
     flex-direction: column;
     align-items: flex-end;
   
-    margin-top: 127px;
+    margin-top: 120px;
      margin-right:0px;
      margin-left: -20px;
    

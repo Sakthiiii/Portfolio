@@ -432,7 +432,7 @@ position: relative;
 }
 .about .about-content .personal-info .info-items p {
     font-weight: 600;
-    padding: 10px 0;
+    padding: 10px 1px;
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 2px solid var(--bg-black-50);
@@ -1093,6 +1093,12 @@ font-family:'Montserrat';
         margin-left: 90px;
        
     }
+    .portfolio .portfolio-item{
+        margin-right: 20px;
+        flex: 0 0 65%;
+        max-width: 100%;
+        margin-left: -0px;
+    }
     .about .about-content .personal-info .info-items{
         flex: 0 0 100%;
         max-width: 100%;
@@ -1191,7 +1197,7 @@ font-family:'Montserrat';
         margin-right: 20px;
         flex: 0 0 65%;
         max-width: 100%;
-        margin-left: 0px;
+        margin-left: -20px;
     }
     .portfolio .container{
         margin-right: 30px;
@@ -1298,7 +1304,7 @@ font-family:'Montserrat';
         margin-right: 20px;
         flex: 0 0 25%;
         max-width: 100%;
-        margin-left: 0px;
+        margin-left: -20px;
     }
     .portfolio .container{
         margin-right: 30px;
@@ -1339,9 +1345,9 @@ font-family:'Montserrat';
     flex-direction: column;
     align-items: flex-end;
   
-    margin-top: -310px;
-     margin-right:60px;
-     margin-left: -40px;
+    margin-top: 127px;
+     margin-right:0px;
+     margin-left: -20px;
    
   }
    
@@ -1396,8 +1402,7 @@ font-family:'Montserrat';
     flex-direction: column;
     text-align: center;
     margin-left: -600px;
-    
-margin-bottom: -350px;
+    margin-bottom: -350px;
      
   }
   

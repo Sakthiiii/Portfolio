@@ -496,7 +496,7 @@ position: relative;
     line-height: 40px;
     font-family: "Lora";
 }
-/* .about .about-content .experience, */
+
 .about .about-content .education{
     flex: 0 0 50%;
     max-width: 50%;
@@ -971,7 +971,17 @@ font-family:'Montserrat';
     margin-left: 150px;
     margin-top: 170px;
 }
-  
+.about .about-content .experience{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+    color: var(--text-black-900);
+}
+.about .about-content .education{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+}
   
 }
 @media (max-width:550px){
@@ -1051,6 +1061,17 @@ font-family:'Montserrat';
     margin-left: 250px;
     margin-top: 190px;
 }
+.about .about-content .experience{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+    color: var(--text-black-900);
+}
+.about .about-content .education{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+}
   
   
 }
@@ -1071,6 +1092,10 @@ font-family:'Montserrat';
     .h3.hello span{
         margin-left: 90px;
        
+    }
+    .about .about-content .personal-info .info-items{
+        flex: 0 0 100%;
+        max-width: 100%;
     }
     .home .home-img {
        
@@ -1122,6 +1147,17 @@ font-family:'Montserrat';
     margin-left: 250px;
     margin-top: 190px;
 }
+.about .about-content .experience{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+    color: var(--text-black-900);
+}
+.about .about-content .education{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+}
   
   
 }
@@ -1143,8 +1179,19 @@ font-family:'Montserrat';
         margin-left: 50px;
        
     }
+    .about .about-content .personal-info .info-items{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .contact .contact-info-item{
+        margin-left: 10px;
+    }
     .portfolio .portfolio-item{
-        margin-right: 90px;
+        margin-right: 20px;
+        flex: 0 0 65%;
+        max-width: 100%;
+        margin-left: 0px;
     }
     .portfolio .container{
         margin-right: 30px;
@@ -1200,6 +1247,17 @@ font-family:'Montserrat';
     margin-left: 250px;
     margin-top: px;
 }
+.about .about-content .experience{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+    color: var(--text-black-900);
+}
+.about .about-content .education{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+}
   
   
 }
@@ -1221,6 +1279,15 @@ font-family:'Montserrat';
         margin-left: 50px;
        
     }
+    .about .about-content .timeline-box {
+        flex: 0 0 120%;
+        max-width: 120%;
+        }
+
+    .about .about-content .personal-info .info-items{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     .contact .contact-info-item{
         margin-left: -0px;
     }
@@ -1231,7 +1298,7 @@ font-family:'Montserrat';
         margin-right: 20px;
         flex: 0 0 25%;
         max-width: 100%;
-        margin-left: 10px;
+        margin-left: 0px;
     }
     .portfolio .container{
         margin-right: 30px;
@@ -1287,6 +1354,18 @@ font-family:'Montserrat';
     margin-left: 250px;
     margin-top: px;
 }
+.about .about-content .experience{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+    color: var(--text-black-900);
+}
+.about .about-content .education{
+    flex: 0 0 85%;
+    max-width: 85%;
+    margin-top: 30px;
+}
+
   
   
 }

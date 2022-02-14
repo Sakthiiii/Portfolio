@@ -1669,8 +1669,9 @@ font-family:'Montserrat';
   }
   
   .sci li a:hover {
-    background: #03a9f4;
-    color: #fff;
+    /* background: #03a9f4; */
+    background:var(--text-black-700);
+    color:var(--bg-black-900);
   }
   .live{
       display: flex;

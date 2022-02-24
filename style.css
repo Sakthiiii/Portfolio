@@ -626,12 +626,16 @@ font-family: "Montserrat";
     color: var(--text-black-900);
     font-weight: 600;
     font-family:'Montserrat';
-    margin-top: 20px;
-    border-top: 5px double var(--skin-color);
+    margin-bottom: 0px;
+    margin-left: 220px;
     padding-top: 30px;
     font-size:x-large;
    border-width:thin;
   
+}
+.portfolio .portfolio-heading span{
+    font-weight: 600;
+    margin-left: 20px;
 }
 
 .portfolio.section-title h2 {
@@ -660,7 +664,8 @@ font-family:'Montserrat';
     cursor: pointer;
 }
 .portfolio .portfolio-item .link {
-    height: 10px;
+    position: absolute;
+    height: 20px;
     font-weight: 700;
     padding: 0px 20px;
     background: var(--skin-color);

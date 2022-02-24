@@ -607,9 +607,9 @@ position: relative;
 .portfolio .portfolio-heading{
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 40px;
-    margin-top: 10px;
-    font-family:"Montserrat";
+    margin-bottom: 60px;
+    margin-top: -50px;
+    font-family:;
 }
 .portfolio .portfolio-heading h2 {
     color: var(--text-black-900);

@@ -609,7 +609,7 @@ position: relative;
     max-width: 100%;
     margin-bottom: 60px;
     margin-top: -50px;
-    font-family:;
+   
 }
 .portfolio .portfolio-heading h2 {
     color: var(--text-black-900);
@@ -755,7 +755,9 @@ font-family:'Montserrat';
     line-height: 25px;
     color: var(--text-black-700);
     font-weight: 600;
+    font-family: "Lora";
 }
+
 
 .contact .contact-form{
     flex: 0 0 100%;
@@ -843,12 +845,25 @@ font-family:'Montserrat';
         margin-top: 35px;
         margin-left: 300px;
     }
-    
-   
-    .sci li a{
-        /* margin-left: 130px;
-        margin-bottom: 190px; */
+    .portfolio .portfolio-heading h3{
+        margin-left: 110px;
     }
+    .portfolio .portfolio-heading span{
+        margin-right: 10px;
+    }
+    .portfolio .portfolio-item{
+        max-width: 100%;
+        flex: 0 0 60%;
+     }
+   
+    .contact .contact-info-item {
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 20px;
+        margin-bottom: 60px;
+    }
+   
+    
     .home .home-img::after {
         content: " ";
         position:absolute;
@@ -905,6 +920,12 @@ font-family:'Montserrat';
     }
     .home.content{
        margin-top: 80px;
+    }
+    .portfolio .portfolio-heading h3{
+        margin-left: 70px;
+    }
+    .portfolio .portfolio-heading span{
+        margin-right: 10px;
     }
     .portfolio .portfolio-item{
        max-width: 100%;
@@ -1006,6 +1027,12 @@ font-family:'Montserrat';
         max-width: 85%;
         margin-left: 20px;
     }
+    .portfolio .portfolio-heading h3{
+        margin-left: 20px;
+    }
+    .portfolio .portfolio-heading span{
+        margin-right: 10px;
+    }
     .portfolio .container{
         margin-right: 30px;
     }
@@ -1094,6 +1121,12 @@ font-family:'Montserrat';
     .h3.hello span{
         margin-left: 90px;
        
+    }
+    .portfolio .portfolio-heading h3{
+        margin-left: 40px;
+    }
+    .portfolio .portfolio-heading span{
+        margin-right: 84px;
     }
     .portfolio .portfolio-item{
         margin-right: 20px;
@@ -1204,6 +1237,13 @@ font-family:'Montserrat';
     .portfolio .container{
         margin-right: 30px;
     }
+    .portfolio .portfolio-heading h3{
+        margin-left: 40px;
+    }
+    .portfolio .portfolio-heading span{
+        margin-right: 54px;
+    }
+
     .home .home-img {
        
         margin-top: 120px;
@@ -1389,6 +1429,7 @@ font-family:'Montserrat';
     .contact .contact-form .col-6 ,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
+    
     .about .about-content .skills,
     .about .about-content .personal-info {
         flex: 0 0 100%;
@@ -1428,6 +1469,12 @@ font-family:'Montserrat';
         max-width: 100%;
         margin-left: -20px;
     }
+    .portfolio .portfolio-heading h3{
+       margin-left: 40px;
+    }
+    .portfolio .portfolio-heading span{
+        margin-right: 45px;
+     }
     .portfolio .container{
         margin-right: 30px;
     }
@@ -1504,6 +1551,7 @@ font-family:'Montserrat';
     .contact .contact-form .col-6 ,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
+    
     .about .about-content .skills,
     .about .about-content .personal-info {
         flex: 0 0 100%;
@@ -1561,6 +1609,9 @@ font-family:'Montserrat';
         border-right:10px solid var(--skin-color) ;
         right: -195px;
         bottom: -10px;
+    }
+    .portfolio .portfolio-heading  span{
+       margin-left: 30px;
     }
     
 .home .home-img::before {
